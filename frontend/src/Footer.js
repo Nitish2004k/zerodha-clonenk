@@ -10,58 +10,58 @@ function Footer() {
                 <div className='col' style={{textDecoration:"none"}}>
                     <p>Company</p>
                     <br/>
-                   <a href='' style={{textDecoration:"none"}}>About</a> 
+                   <a href='/' style={{textDecoration:"none"}}>About</a> 
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Philosophy</a>
+                   <a href='/' style={{textDecoration:"none"}}> Philosophy</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>Press & media</a>
+                   <a href='/' style={{textDecoration:"none"}}>Press & media</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Careers</a>
+                   <a href='/' style={{textDecoration:"none"}}> Careers</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Zerodha Cares (CSR)</a>
+                   <a href='/' style={{textDecoration:"none"}}> Zerodha Cares (CSR)</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Zerodha.tech</a>
+                   <a href='/' style={{textDecoration:"none"}}> Zerodha.tech</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>Open source</a>
+                   <a href='/' style={{textDecoration:"none"}}>Open source</a>
                 </div>
                 <div className='col'>
                     <p>Support</p>
                     <br/>
-                    <a href='' style={{textDecoration:"none"}}>Contact us</a> 
+                    <a href='/' style={{textDecoration:"none"}}>Contact us</a> 
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Support portal</a>
+                   <a href='/' style={{textDecoration:"none"}}> Support portal</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>How to file a complaint?</a>
+                   <a href='/' style={{textDecoration:"none"}}>How to file a complaint?</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Status of your complaints</a>
+                   <a href='/' style={{textDecoration:"none"}}> Status of your complaints</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Bulletin</a>
+                   <a href='/' style={{textDecoration:"none"}}> Bulletin</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Circular</a>
+                   <a href='/' style={{textDecoration:"none"}}> Circular</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>Z-Connect bloge</a>
+                   <a href='/' style={{textDecoration:"none"}}>Z-Connect bloge</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>Downloads</a>
+                   <a href='/' style={{textDecoration:"none"}}>Downloads</a>
                     
                 </div>
                 <div className='col'>
                     <p>Account</p>
                     <br/>
-                    <a href=''  style={{textDecoration:"none"}}>Open demat account</a> 
+                    <a href='/'  style={{textDecoration:"none"}}>Open demat account</a> 
                    <br/>
-                   <a href=''  style={{textDecoration:"none"}}>Minor demat account</a>
+                   <a href='/'  style={{textDecoration:"none"}}>Minor demat account</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>NRI demat account</a>
+                   <a href='/' style={{textDecoration:"none"}}>NRI demat account</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Commodity</a>
+                   <a href='/' style={{textDecoration:"none"}}> Commodity</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Dematerialisation</a>
+                   <a href='/' style={{textDecoration:"none"}}> Dematerialisation</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}> Fund transfer</a>
+                   <a href='/' style={{textDecoration:"none"}}> Fund transfer</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>MTF</a>
+                   <a href='/' style={{textDecoration:"none"}}>MTF</a>
                    <br/>
-                   <a href='' style={{textDecoration:"none"}}>Referral program</a>
+                   <a href='/' style={{textDecoration:"none"}}>Referral program</a>
                 </div>
                 
             </div>
