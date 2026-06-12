@@ -9,7 +9,7 @@ const HoldingsSchema = new Schema({
   day: String,
 });
 
-module.exports = { HoldingsSchema };
+module.exports =  HoldingsSchema ;
 
 
 // const { Schema } = require("mongoose");
