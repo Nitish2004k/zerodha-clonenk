@@ -3,8 +3,8 @@ import axios from "axios";
 
 const API = "https://zerodha-clonenk.onrender.com";
 
-function Signup() {
-  const [form, setForm] = useState({ name: "", username: "", password: "" });
+function Login() {
+  const [form, setForm] = useState({ username: "", password: "" });
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -16,11 +16,11 @@ function Signup() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/signup`, form, { withCredentials: true });
+      const res = await axios.post(`${API}/login`, form, { withCredentials: true });
       setMessage("✅ " + res.data.message);
-      setTimeout(() => window.location.href = "/", 1500);
+      setTimeout(() => window.location.href = "/dashboard", 1500);
     } catch (err) {
-      setMessage("❌ " + (err.response?.data?.message || "Something went wrong"));
+      setMessage("❌ " + (err.response?.data?.message || "Invalid credentials"));
     }
     setLoading(false);
   };
@@ -28,25 +28,13 @@ function Signup() {
   return (
     <div className="container" style={{ maxWidth: "450px", marginTop: "80px" }}>
       <div className="card p-4 shadow">
-        <h2 className="text-center mb-4">Create Account</h2>
+        <h2 className="text-center mb-4">Login</h2>
         {message && (
           <div className={`alert ${message.startsWith("✅") ? "alert-success" : "alert-danger"}`}>
             {message}
           </div>
         )}
         <form onSubmit={handleSubmit}>
-          <div className="mb-3">
-            <label className="form-label">Full Name</label>
-            <input
-              type="text"
-              name="name"
-              className="form-control"
-              placeholder="Enter your name"
-              value={form.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
           <div className="mb-3">
             <label className="form-label">Email / Username</label>
             <input
@@ -76,16 +64,16 @@ function Signup() {
             className="btn btn-primary w-100"
             disabled={loading}
           >
-            {loading ? "Creating account..." : "Signup for free"}
+            {loading ? "Logging in..." : "Login"}
           </button>
         </form>
         <p className="text-center mt-3">
-          Already have an account?{" "}
-          <a href="/login">Login here</a>
+          Don't have an account?{" "}
+          <a href="/Signup">Signup here</a>
         </p>
       </div>
     </div>
   );
 }
 
-export default Signup;
+export default Login;
